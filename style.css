@@ -1,0 +1,160 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px,30px;
+    background-color: #2e7d32;;
+}
+nav{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.nav-links{
+    display: flex;
+    gap:25px;
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color:white;
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 25px 40px;
+    border-radius: 15px;
+}
+
+.banner-text h1 {
+    font-size: 42px;
+    color: #1a7a1a;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.banner-text button {
+    background: #1a7a1a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner-text button:hover {
+    background: #0f5a0f;
+}
+
+.product section{
+    padding:40px 20px;
+    text-align: center;
+}
+.product section{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.products{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap:20px;
+}
+.card{
+    background-color: bisque;
+    border:1px solid#add;
+    border-radius: 10px;
+    padding:15px;
+    width:220px;
+    box-shadow:0 2px 8px rfba(0,0,0,0,1);
+}
+.card img{
+    width:100%;
+    height:160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card h3{
+    margin:10px 0 5px 0;
+
+}
+.card p{
+    color: #0f5a0f;
+    font-weight:bold ;
+}
+/* .card button{
+    background-color: #2e7d32;
+    color:white;
+    border: none;
+    padding: 8px,15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+} */
+ 
+
+.qty-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    border: 2px solid green;
+    border-radius: 8px;
+    background: white;
+    padding: 3px;
+}
+
+.qty-box button {
+    width: 30px;
+    height: 30px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.qty {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #2e7d32;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer p{
+    margin: 5px 0;
+}
